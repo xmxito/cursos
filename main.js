@@ -175,4 +175,5 @@ setTimeout(function(){
 function controler() {
     board_view.play();
     window.requestAnimationFrame(controler);
+    comsole.log();
 }
